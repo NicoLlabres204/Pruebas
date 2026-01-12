@@ -1,0 +1,52 @@
+/* TRIADA DE COLOR */
+/* Naranja: #FF9433 */
+/* Verde: #33FF45 */
+/* Morado: #6A33FF */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+/* - - - - - */
+
+body {
+    min-height: 100vh;
+    background-image: url('../img/Fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.marco {
+    text-align: justify;
+    font-size: 1em;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 20px;
+    background: #FF9433;
+    transition: transform 0.75s ease;
+}
+
+.marco:hover {
+    transform: scale(1.01);
+}
+
+.mono {
+    size: absolute;
+    width: 100px;
+    border: 2px black;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.mono:hover {
+    transform: scale(1.25) rotate(360deg);
+}
